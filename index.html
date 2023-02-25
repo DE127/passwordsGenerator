@@ -1,0 +1,227 @@
+﻿<!doctype html>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="description" content="Password Generator Plus">
+	<title>Password Generator</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<!-- <link rel="stylesheet" href="css/main.css"> -->
+	<link rel="shortcut icon" href="img\lock.ico" type="image/x-icon">
+	<script language="javascript" type="text/javascript" src="js/main.js"></script>
+</head>
+
+<body>
+
+	<div class="container">
+		<div class="container2">
+			<div id="header">
+				<div id="Logo">
+					Password Generator
+				</div>
+			</div>
+
+			<div class="settingGn">
+				<div class="text textst2">Password Length</div>
+			<div id="sec_options">
+				<div class="lengthSlt">
+					<select class="pgLengthSlt" id="pgLength">
+						<option value="6">6</option>
+						<option value="7">7</option>
+						<option value="8">8</option>
+						<option value="9">9</option>
+						<option value="10">10</option>
+						<option value="11">11</option>
+						<option value="12">12</option>
+						<option value="13">13</option>
+						<option value="14">14</option>
+						<option value="15">15</option>
+						<option value="16">16</option>
+						<option value="17">17</option>
+						<option value="18">18</option>
+						<option value="19">19</option>
+						<option value="20">20</option>
+						<option value="21">21</option>
+						<option value="22">22</option>
+						<option value="23">23</option>
+						<option value="24">24</option>
+						<option value="25">25</option>
+						<option value="26">26</option>
+						<option value="27">27</option>
+						<option value="28">28</option>
+						<option value="29">29</option>
+						<option value="30">30</option>
+						<option value="31">31</option>
+						<option value="32">32</option>
+						<option value="33">33</option>
+						<option value="34">34</option>
+						<option value="35">35</option>
+						<option value="36">36</option>
+						<option value="37">37</option>
+						<option value="38">38</option>
+						<option value="39">39</option>
+						<option value="40">40</option>
+						<option value="41">41</option>
+						<option value="42">42</option>
+						<option value="43">43</option>
+						<option value="44">44</option>
+						<option value="45">45</option>
+						<option value="46">46</option>
+						<option value="47">47</option>
+						<option value="48">48</option>
+						<option value="49">49</option>
+						<option value="50">50</option>
+					</select>
+				</div>
+			</div>
+
+			<div class="text">Include Numbers</div>
+			<div class="">
+				<label class="switch">
+					<input name="Numbers" id="Numbers" checked="" type="checkbox">
+					<span class="slider"></span>
+				</label>
+			</div>
+			<div class="text">Include Lowercase Characters</div>
+			<div class="">
+				<label class="switch">
+					<input name="Lowercase" id="Lowercase" checked="" type="checkbox">
+					<span class="slider"></span>
+				</label>
+			</div>
+			<div class="text">Include Uppercase Characters</div>
+			<div class="">
+				<label class="switch">
+					<input name="Uppercase" id="Uppercase" checked="" type="checkbox">
+					<span class="slider"></span>
+				</label>
+			</div>
+			<div class="text">Begin With A Letter</div>
+			<div class="">
+				<label class="switch">
+					<input name="BeginWithC" id="BeginWithC" checked="" type="checkbox">
+					<span class="slider"></span>
+				</label>
+			</div>
+			<div class="text">Include Symbols</div>
+			<div class="">
+				<label class="switch">
+					<input type="checkbox" name="Symbols" id="Symbols">
+					<span class="slider"><input name="CustomizeSymbols" id="CustomizeSymbols" type="text" size="75"
+							value="!&quot;#$%&'()*+,-./:;<=>?@[\]^_`{|}~" class="txt_options"></span>
+				</label>
+			</div>
+			<div class="text">No Similar Characters</div>
+			<div class="">
+				<label class="switch">
+					<input name="Nosimilar" id="Nosimilar" type="checkbox">
+					<span class="slider"></span>
+				</label>
+			</div>
+			<div class="text">No Duplicate Characters</div>
+			<div class="">
+				<label class="switch">
+					<input name="AllUniqueC" id="AllUniqueC" type="checkbox">
+					<span class="slider"></span>
+				</label>
+			</div>
+			<div class="text">No Sequential Characters</div>
+			<div class="">
+				<label class="switch">
+					<input name="NoSeqC" id="NoSeqC" type="checkbox">
+					<span class="slider"></span>
+				</label>
+			</div>
+
+			<div class="text textst2" style="margin: 10px 0 0 0">Quantity</div>
+			<div class="lengthSlt">
+				<select class="pgLengthSlt" id="pgQuantity">
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+					<option value="6">6</option>
+					<option value="7">7</option>
+					<option value="8">8</option>
+					<option value="9">9</option>
+					<option value="10">10</option>
+					<option value="11">11</option>
+					<option value="12">12</option>
+					<option value="13">13</option>
+					<option value="14">14</option>
+					<option value="15">15</option>
+					<option value="16">16</option>
+					<option value="17">17</option>
+					<option value="18">18</option>
+					<option value="19">19</option>
+					<option value="20">20</option>
+					<option value="21">21</option>
+					<option value="22">22</option>
+					<option value="23">23</option>
+					<option value="24">24</option>
+					<option value="25">25</option>
+					<option value="26">26</option>
+					<option value="27">27</option>
+					<option value="28">28</option>
+					<option value="29">29</option>
+					<option value="30">30</option>
+					<option value="31">31</option>
+					<option value="32">32</option>
+					<option value="33">33</option>
+					<option value="34">34</option>
+					<option value="35">35</option>
+					<option value="36">36</option>
+					<option value="37">37</option>
+					<option value="38">38</option>
+					<option value="39">39</option>
+					<option value="40">40</option>
+					<option value="41">41</option>
+					<option value="42">42</option>
+					<option value="43">43</option>
+					<option value="44">44</option>
+					<option value="45">45</option>
+					<option value="46">46</option>
+					<option value="47">47</option>
+					<option value="48">48</option>
+					<option value="49">49</option>
+					<option value="50">50</option>
+				</select>
+			</div>
+		</div>
+
+			<div id="sec_btn">
+				<button class="buttonhandle" onclick="doWork();">
+					Generate
+				</button>
+				<button class="buttonhandle" onclick="OnCopy();">
+					Copy
+				</button>
+			</div><!-- sec_btn -->
+
+			<div id="sec_password">
+
+
+				<div class="">
+					<label class="labelop" for="outputPw">Your New Passwords<br></label>
+					<textarea id="final_pass" class="outputPw" name="" value="Your new password will appear here."
+						onclick="SelectAll('final_pass')"></textarea>
+					<span></span>
+				</div>
+			</div><!-- sec_password -->
+
+			<div class=""></div>
+
+
+			<div id="sec_btm">
+				<p>Copyright &copy; 2012 - 2023
+					<a href="http://codeasy.online/" target="_blank">Codeasy</a>
+				</p>
+			</div>
+		</div>
+	</div>
+
+
+</body>
+
+</html>
