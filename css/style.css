@@ -18,18 +18,18 @@ body {
 	align-items: center;
 	word-wrap: break-word;
 	font-family: Roboto;
-	font-size: 16px;
+	font-size: 1rem;
 	color: #fff;
 }
 
 .container {
 	width: fit-content;
 	height: auto;
-	margin: 40px 0;
-	padding: 40px 50px;
+	margin: 2.5rem 0;
+	padding: 2.5rem 3.125rem;
 	background: #0a0e31;
-	border-radius: 20px;
-	box-shadow: 0 0 5px rgba(0, 0, 0, 0.45), 0 4px 8px rgba(0, 0, 0, 0.35), 0 8px 12px rgba(0, 0, 0, 0.15);
+	border-radius: 1.25rem;
+	box-shadow: 0 0 .3125rem rgba(0, 0, 0, 0.45), 0 .25rem .5rem rgba(0, 0, 0, 0.35), 0 .5rem .75rem rgba(0, 0, 0, 0.15);
 }
 
 button {
@@ -40,12 +40,12 @@ button {
 
 #Logo {
 	font-size: 3rem;
-	margin: 10px -5px;
+	margin: .625rem -0.3125rem;
 	padding-bottom: 2%;
 	font-weight: 600;
 	text-align: center;
 	margin-bottom: 12%;
-	border-bottom: 1px solid #fff;
+	border-bottom: .0625rem solid #fff;
 }
 
 .pgLengthSlt {
@@ -58,10 +58,10 @@ button {
 	height: 3.6rem;
 	width: 4em;
 	text-align: center;
-	border: #0a0e31 1px solid;
-	border-bottom: #2196f3 1px solid;
+	border: #0a0e31 .0625rem solid;
+	border-bottom: #2196f3 .0625rem solid;
 	background: #0a0e31;
-	font-size: 16px;
+	font-size: 1rem;
 	font-weight: 600;
 	color: #fff;
 	vertical-align: top;
@@ -71,7 +71,7 @@ button {
 .pgLengthSlt select {
 	width: 100%;
 	height: 100%;
-	padding: 0 10px;
+	padding: 0 .625rem;
 	font-size: 1.2rem;
 	font-weight: 600;
 	color: #fff;
@@ -86,25 +86,25 @@ button {
 
 .textst2 {
 	display: block;
-	margin: 20px 0 0 0;
-	padding-left: 20px;
-	padding-bottom: 10px;
+	margin: 1.25rem 0 0 0;
+	padding-left: 1.25rem;
+	padding-bottom: .625rem;
 	font-size: larger;
-	border-left: #2196f3 1px solid;
-	border-bottom: #2196f3 1px solid;
+	border-left: #2196f3 .0625rem solid;
+	border-bottom: #2196f3 .0625rem solid;
 }
 .textst2:first-child {
-	margin-top: 7px;
-	padding: 10px -20px 20px 0px;
+	margin-top: .4375rem;
+	padding: .625rem -1.25rem 1.25rem 0rem;
 }
 
 #sec_btm {
 	display: flex;
 	margin: auto;
-	padding: 30px 0 10px 0;
+	padding: 1.875rem 0 .625rem 0;
 	justify-content: center;
 	align-items: center;
-	margin-top: 20px;
+	margin-top: 1.25rem;
 	font-size: medium;
 	font-weight: 100;
 }
@@ -114,10 +114,10 @@ button {
 	--hover-bg: #0a0e31;
 	--hover-text: #ffffff;
 	color: #000000;
-	border: 1px solid var(--bg);
-	border-radius: 16px;
+	border: .0625rem solid var(--bg);
+	border-radius: 1rem;
 	padding: 0;
-	margin-top: 20px;
+	margin-top: 1.25rem;
 	height: 2.5em;
 	width: 49%;
 	font-size: 1.1rem;
@@ -131,7 +131,7 @@ button {
 	color: var(--hover-text);
 	transform: translate(-0.25rem, -0.25rem);
 	background: var(--hover-bg);
-	box-shadow: 0.25rem 0.25rem var(--bg);
+	box-shadow: .25rem .25rem var(--bg);
 }
 
 .buttonhandle:active {
@@ -143,8 +143,8 @@ button {
 .switch {
 	position: relative;
 	display: inline-block;
-	width: 60px;
-	height: 34px;
+	width: 3.75rem;
+	height: 2.125rem;
 	margin: 0 auto;
 	overflow: hidden;
 }
@@ -168,10 +168,10 @@ button {
 .slider:before {
 	position: absolute;
 	content: "";
-	height: 26px;
-	width: 26px;
-	left: 4px;
-	bottom: 4px;
+	height: 1.625rem;
+	width: 1.625rem;
+	left: .25rem;
+	bottom: .25rem;
 	background-color: white;
 	-webkit-transition: 0.4s;
 	transition: 0.4s;
@@ -182,18 +182,18 @@ input:checked+.slider {
 }
 
 input:focus+.slider {
-	box-shadow: 0 0 1px #2196f3;
+	box-shadow: 0 0 .0625rem #2196f3;
 }
 
 input:checked+.slider:before {
-	-webkit-transform: translateX(26px);
-	-ms-transform: translateX(26px);
-	transform: translateX(26px);
+	-webkit-transform: translateX(1.625rem);
+	-ms-transform: translateX(1.625rem);
+	transform: translateX(1.625rem);
 }
 
 /* Rounded sliders */
 .slider {
-	border-radius: 34px;
+	border-radius: 2.125rem;
 }
 
 .slider:before {
@@ -204,11 +204,11 @@ input:checked+.slider:before {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin: 10px 0;
-	padding: 20px;
+	margin: .625rem 0;
+	padding: 1.25rem;
 	height: 4.5rem;
 	width: 100%;
-	border-radius: 20px 20px 0;
+	border-radius: 1.25rem 1.25rem 0;
 	background: #0a0e31;
 	font-size: larger;
 	font-weight: 600;
@@ -218,30 +218,30 @@ input:checked+.slider:before {
 .labelop {
 	font-size: 1.2rem;
 	font-weight: 600;
-	margin: 0 10px 15px 10px;
+	margin: 0 .625rem .9375rem .625rem;
 	width: 50%;
-	padding-top: 10px;
+	padding-top: .625rem;
 	right: -22%;
-	top: 10px;
+	top: .625rem;
 	text-align: center;
 	font-size: medium;
 	font-weight: 200;
 	color: #fff;
 	display: block;
 	position: relative;
-	border-bottom: #fff 1px solid;
+	border-bottom: #fff .0625rem solid;
 }
 
 .settingGn {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-template-columns: 80% 20%;
-	grid-gap: 40px;
-	padding: 0 5px 0 0;
+	grid-gap: 2.5rem;
+	padding: 0 .3125rem 0 0;
 	margin: 0 10% 10% 0;
 	text-align: left;
 	justify-items: left;
-	font-size: 16px;
+	font-size: 1rem;
 	font-weight: 600;
 	text-transform: uppercase;
 }
@@ -249,13 +249,13 @@ input:checked+.slider:before {
 .text {
 	font: 1.2em;
 	font-weight: 900;
-	padding-top: 10px;
+	padding-top: .625rem;
 }
 
 #output {
 	font-size: 1.2rem;
 	font-weight: 600;
-	margin: 0 10px;
+	margin: 0 .625rem;
 	overflow: hidden;
 }
 
