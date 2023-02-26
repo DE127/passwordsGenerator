@@ -2,10 +2,12 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	cursor: none;
 }
 
 html {
 	background-color: #3a3e62;
+;
 }
 
 body {
@@ -33,6 +35,7 @@ body {
 button {
 	border: 0;
 	outline: 0;
+	cursor: none;
 }
 
 #Logo {
@@ -203,7 +206,7 @@ input:checked+.slider:before {
 	align-items: center;
 	margin: 10px 0;
 	padding: 20px;
-	height: 4rem;
+	height: 4.5rem;
 	width: 100%;
 	border-radius: 20px 20px 0;
 	background: #0a0e31;
